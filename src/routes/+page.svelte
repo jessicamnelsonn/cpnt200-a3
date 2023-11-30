@@ -2,10 +2,10 @@
   export let data;
 </script>
 
-<h1 class="text-5xl text-center p-4"> Jessica's Journeys </h1>
+<h1 class="text-5xl text-center p-4 text-pink-400"> Jessica's Journeys </h1>
   {#each data.blog_page as blog}
-      <article class="p-4 m-6 border border-gray-300 rounded-md">
-        <h1 class="text-4xl font-bold mb-2">{blog.title}</h1>
+      <article class="p-4 m-6 border border-pink-300 rounded-md bg-white shadow-md">
+        <h1 class="text-4xl font-bold mb-2 text-pink-400">{blog.title}</h1>
         <h2 class="text-lg text-gray-600 mb-2">Author: {blog.author}</h2>
         <p class="text-gray-500 mb-2">{blog.date}</p>
         <div class="mb-2">
